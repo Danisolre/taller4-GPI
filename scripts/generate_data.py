@@ -18,6 +18,7 @@ datos = {
     'estado': [random.choice(estados) for _ in range(n)],
     'tiene_adicion': [random.random() < 0.3 for _ in range(n)]
 }
+
 df = pd.DataFrame(datos)
 df['fecha_firma'] = pd.date_range('2024-01-01', periods=n, freq='D')
 os.makedirs('data/raw', exist_ok=True)

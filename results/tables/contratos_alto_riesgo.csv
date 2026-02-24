@@ -1,0 +1,21 @@
+id_contrato,modalidad,entidad,monto,duracion_dias,estado,tiene_adicion,fecha_firma,score_riesgo
+CT-2024-0056,Contratacion Directa,Entidad_8,97651949.0,349,Incumplido,True,2024-02-25,3
+CT-2024-0307,Concurso de Meritos,Entidad_11,164183842.0,320,Incumplido,True,2024-11-02,3
+CT-2024-0317,Seleccion Abreviada,Entidad_19,67182910.0,340,Incumplido,True,2024-11-12,3
+CT-2024-0426,Minima Cuantia,Entidad_4,188187118.0,318,Liquidado,True,2025-03-01,3
+CT-2024-0076,Licitacion Publica,Entidad_7,82875808.0,302,En ejecucion,True,2024-03-16,3
+CT-2024-0072,Contratacion Directa,Entidad_5,242631612.0,350,Liquidado,True,2024-03-12,3
+CT-2024-0060,Contratacion Directa,Entidad_8,104355896.0,362,Ejecutado,True,2024-02-29,3
+CT-2024-0213,Concurso de Meritos,Entidad_3,101037536.0,342,Ejecutado,True,2024-07-31,3
+CT-2024-0192,Contratacion Directa,Entidad_1,87277058.0,345,Incumplido,True,2024-07-10,3
+CT-2024-0492,Concurso de Meritos,Entidad_17,222384007.0,357,Incumplido,True,2025-05-06,3
+CT-2024-0008,Concurso de Meritos,Entidad_8,76373940.0,306,Incumplido,True,2024-01-08,3
+CT-2024-0362,Seleccion Abreviada,Entidad_8,240711185.0,275,Ejecutado,True,2024-12-27,2
+CT-2024-0344,Concurso de Meritos,Entidad_4,11291776.0,309,Liquidado,True,2024-12-09,2
+CT-2024-0363,Contratacion Directa,Entidad_10,20518958.0,307,En ejecucion,True,2024-12-28,2
+CT-2024-0360,Concurso de Meritos,Entidad_10,6984148.0,310,Liquidado,True,2024-12-25,2
+CT-2024-0373,Minima Cuantia,Entidad_18,212981403.0,355,Liquidado,False,2025-01-07,2
+CT-2024-0352,Licitacion Publica,Entidad_18,220858841.0,253,Incumplido,True,2024-12-17,2
+CT-2024-0004,Licitacion Publica,Entidad_17,237230971.0,344,En ejecucion,False,2024-01-04,2
+CT-2024-0313,Licitacion Publica,Entidad_3,83313780.0,331,Incumplido,False,2024-11-08,2
+CT-2024-0331,Licitacion Publica,Entidad_8,23715273.0,332,Liquidado,True,2024-11-26,2
