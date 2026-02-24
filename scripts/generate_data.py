@@ -5,8 +5,8 @@ import os
 np.random.seed(42)
 random.seed(42)
 n = 500
-modalidades = ['Contratacion Directa', 'Licitacion Publica', 'Seleccion 
-Abreviada', 'Minima Cuantia', 'Concurso de Meritos']
+modalidades = ['Contratacion Directa', 'Licitacion Publica',
+    'Seleccion Abreviada', 'Minima Cuantia', 'Concurso de Meritos']
 estados = ['Ejecutado', 'En ejecucion', 'Incumplido', 'Liquidado']
 entidades = [f'Entidad_{i}' for i in range(1, 21)]
 datos = {
@@ -14,12 +14,13 @@ datos = {
     'modalidad': [random.choice(modalidades) for _ in range(n)],
     'entidad': [random.choice(entidades) for _ in range(n)],
     'monto': np.random.lognormal(mean=17, sigma=1.5, size=n).round(0),
-    'fecha_firma': pd.date_range('2024-01-01', periods=n, freq='D').strftime('%Y-%m-%d').tolist()[:n],
     'duracion_dias': np.random.randint(30, 365, size=n),
     'estado': [random.choice(estados) for _ in range(n)],
     'tiene_adicion': [random.random() < 0.3 for _ in range(n)]
 }
+
 df = pd.DataFrame(datos)
+df['fecha_firma'] = pd.date_range('2024-01-01', periods=n, freq='D')
 os.makedirs('data/raw', exist_ok=True)
 df.to_csv('data/raw/contratos_simulados.csv', index=False)
-print(f"Datos generados: {len(df)} contratos en data/raw/contratos_simulados.csv")
+print(f"Datos generados: {len(df)} contratos")
